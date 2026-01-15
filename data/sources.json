@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "dataPoint": "Engineering colleges & seats",
+      "source": "AICTE Official Data",
+      "date": "2024-25, 2025-26"
+    },
+    {
+      "dataPoint": "School statistics",
+      "source": "UDISE+ Report",
+      "date": "2023-24, 2024-25"
+    },
+    {
+      "dataPoint": "CBSE school count",
+      "source": "CBSE SARAS Portal",
+      "date": "January 2024"
+    },
+    {
+      "dataPoint": "ICSE school count",
+      "source": "CISCE Official",
+      "date": "2024"
+    },
+    {
+      "dataPoint": "JEE Main statistics",
+      "source": "NTA Official",
+      "date": "2024, 2025"
+    },
+    {
+      "dataPoint": "NEET UG statistics",
+      "source": "NTA Official",
+      "date": "2024, 2025"
+    },
+    {
+      "dataPoint": "UPSC CSE statistics",
+      "source": "UPSC Official (PIB)",
+      "date": "2024"
+    }
+  ]
+}

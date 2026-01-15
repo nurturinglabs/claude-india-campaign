@@ -1,0 +1,31 @@
+{
+  "overview": {
+    "totalSchools": 1472000,
+    "totalStudents": 248000000,
+    "totalTeachers": 9800000,
+    "governmentSchoolsPercent": 69,
+    "privateSchoolsPercent": 22.5,
+    "studentsInGovtSchools": 50,
+    "studentsInPrivateSchools": 32.6
+  },
+  "boards": [
+    { "board": "CBSE", "schools": 28960, "students": "20+ million" },
+    { "board": "ICSE/ISC (CISCE)", "schools": 2891, "students": "~2 million" },
+    { "board": "State Boards", "schools": "Majority", "students": "~200+ million" }
+  ],
+  "infrastructure": [
+    { "facility": "Electricity", "percentage": 91 },
+    { "facility": "Drinking water", "percentage": 98.3 },
+    { "facility": "Toilets", "percentage": 91 },
+    { "facility": "Computers", "percentage": 57.2 },
+    { "facility": "Internet", "percentage": 53.9 }
+  ],
+  "premium": {
+    "estimatedSchools": "15,000-20,000",
+    "estimatedStudents": "15-25 million",
+    "cbsePrivate": 16741,
+    "icseSchools": 2800,
+    "internationalSchools": 500
+  },
+  "campaignInsight": "Only 57% of schools have computers and 54% have internet. Mobile-first Claude access could leapfrog infrastructure limitations."
+}

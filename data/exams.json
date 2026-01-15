@@ -1,0 +1,35 @@
+{
+  "jee": {
+    "name": "JEE (Engineering Entrance)",
+    "main2024Registered": 1476557,
+    "main2024Appeared": 1415110,
+    "qualifiedForAdvanced": 250000,
+    "main2025Registered": 1539848,
+    "main2025Appeared": 1475103
+  },
+  "neet": {
+    "name": "NEET (Medical Entrance)",
+    "ug2024Registered": 2406079,
+    "ug2024Appeared": 2333162,
+    "qualified": 1315853,
+    "ug2025Registered": 2276069
+  },
+  "upsc": {
+    "name": "UPSC (Civil Services)",
+    "applied": 992599,
+    "appearedPrelims": 583213,
+    "qualifiedMains": 14627,
+    "qualifiedInterview": 2845,
+    "finalSelection": 1009,
+    "selectionRate": 0.1
+  },
+  "other": [
+    { "exam": "CAT (MBA entrance)", "aspirants": "3,00,000+" },
+    { "exam": "CLAT (Law entrance)", "aspirants": "70,000+" },
+    { "exam": "Banking (IBPS/SBI)", "aspirants": "10+ million" },
+    { "exam": "SSC (Staff Selection)", "aspirants": "20+ million" },
+    { "exam": "State PSCs", "aspirants": "5+ million" }
+  ],
+  "totalAspirants": "50+ Million",
+  "campaignInsight": "These students are under immense pressure, often isolated, studying 12-16 hours daily. They need patient doubt-clearing at 2 AM, infinite practice problems, emotional support, and an affordable alternative to expensive coaching fees."
+}

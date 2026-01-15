@@ -1,0 +1,27 @@
+{
+  "overview": {
+    "totalColleges": 5875,
+    "totalSeats2024": 1490000,
+    "totalSeats2025": 1598000,
+    "seatsFilled2024": 1253000,
+    "vacancyRate": 16.36
+  },
+  "stateWise": [
+    { "state": "Tamil Nadu", "seats": 308686 },
+    { "state": "Andhra Pradesh", "seats": 183532 },
+    { "state": "Telangana", "seats": 145557 },
+    { "state": "Maharashtra", "seats": 140000 },
+    { "state": "Karnataka", "seats": 135000 },
+    { "state": "Uttar Pradesh", "seats": 120000 },
+    { "state": "Rajasthan", "seats": 95000 },
+    { "state": "Gujarat", "seats": 85000 }
+  ],
+  "branchWise": [
+    { "branch": "Computer Science & Engineering", "enrolled": 390245 },
+    { "branch": "Mechanical Engineering", "enrolled": 236909 },
+    { "branch": "Civil Engineering", "enrolled": 172936 },
+    { "branch": "Electronics & Communication", "enrolled": 160450 },
+    { "branch": "Electrical Engineering", "enrolled": 125902 }
+  ],
+  "campaignInsight": "Computer Science alone has 3.9 lakh students enrolled annually. These are exactly the students who would benefit most from Claude Code as a coding mentor and collaborator."
+}
