@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Card, { CardContent } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
-import { User, BookOpen, Code, Heart, Globe, Lightbulb, Quote, GraduationCap, Calculator, Sparkles, Users, Scale } from 'lucide-react';
+import { User, BookOpen, Code, Heart, Globe, Lightbulb, Quote, GraduationCap, Calculator, Sparkles, Users, Scale, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About | Claude for India',
@@ -10,12 +10,13 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    name: 'BAREYIRI',
+    name: 'Janapadha',
     description: 'Kannada writing competition platform promoting regional language literacy and creative expression',
     icon: BookOpen,
     color: 'text-purple-600',
     bgColor: 'bg-purple-100',
-    status: 'Coming Soon',
+    status: 'Live',
+    url: 'https://janapadha.vercel.app/',
   },
   {
     name: 'Kaanunu',
@@ -24,6 +25,7 @@ const projects = [
     color: 'text-blue-600',
     bgColor: 'bg-blue-100',
     status: 'Live',
+    url: 'https://thelegal.vercel.app/',
   },
   {
     name: 'Dhairya',
@@ -32,6 +34,7 @@ const projects = [
     color: 'text-red-600',
     bgColor: 'bg-red-100',
     status: 'Live',
+    url: 'https://dhairya-omega.vercel.app/',
   },
   {
     name: 'Math Lab',
@@ -40,6 +43,7 @@ const projects = [
     color: 'text-green-600',
     bgColor: 'bg-green-100',
     status: 'Personal Project',
+    url: null,
   },
   {
     name: 'Spelling Tutor',
@@ -48,6 +52,7 @@ const projects = [
     color: 'text-orange-600',
     bgColor: 'bg-orange-100',
     status: 'Personal Project',
+    url: null,
   },
 ];
 
@@ -135,6 +140,17 @@ export default function AboutPage() {
                         </span>
                       </div>
                       <p className="text-gray-600 text-sm">{project.description}</p>
+                      {project.url && (
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 mt-3 text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                        >
+                          Visit Live Site
+                          <ExternalLink className="w-3.5 h-3.5" />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </CardContent>
