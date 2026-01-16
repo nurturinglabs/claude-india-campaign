@@ -98,7 +98,7 @@ export default function Hero() {
             <span className="block mt-2 overflow-hidden">
               <span className="inline-block animate-slideUp" style={{ animationDelay: '0.6s' }}>
                 From <span className="text-blue-400">Learners</span> to{' '}
-                <span className="text-amber-400 inline-block min-w-[180px] md:min-w-[220px]">
+                <span className="text-amber-400 inline-block min-w-[200px] md:min-w-[280px]">
                   <span
                     key={creatorIndex}
                     className="inline-block animate-fadeInUp"
